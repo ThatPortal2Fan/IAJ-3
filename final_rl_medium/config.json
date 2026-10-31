@@ -1,0 +1,61 @@
+{
+  "bench_name": "smb-v0",
+  "level_width": 150,
+  "ctl_ranges": {
+    "enemies": [
+      0.0,
+      21.0
+    ],
+    "coins": [
+      0.0,
+      15.0
+    ],
+    "jumps": [
+      0.0,
+      30.0
+    ]
+  },
+  "cerror": {
+    "enemies": 2,
+    "coins": 1,
+    "jumps": 3
+  },
+  "empty_thr": 0.5,
+  "fenemies_thr": 0.1,
+  "window": 8,
+  "n_passes": 2,
+  "slice_encoding": "tiles+features",
+  "ref_noise": 0.3,
+  "w_valid": 1.0,
+  "w_ctl": 1.0,
+  "ctl_gated": true,
+  "noise_gated": false,
+  "ctl_tol": 0.05,
+  "terminal_bonus": 5.0,
+  "reward_scale": 10.0,
+  "w_div": 0.0,
+  "div_buffer": 32,
+  "bench_terminal_prob": 0.0,
+  "w_bench": 5.0,
+  "mask_floating_enemies": true,
+  "mask_height_diff": true,
+  "mask_gap_run": true,
+  "total_steps": 5000000,
+  "n_envs": 8,
+  "learning_rate": 0.0003,
+  "n_steps": 1024,
+  "batch_size": 256,
+  "n_epochs": 10,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "clip_range": 0.2,
+  "ent_coef": 0.01,
+  "net_arch": [
+    256,
+    256
+  ],
+  "seed": 0,
+  "eval_every": 200000,
+  "eval_n": 10,
+  "gen_attempts": 1
+}

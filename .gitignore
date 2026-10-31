@@ -1,0 +1,8 @@
+/.venv
+/.vscode
+__pycache__/
+*.py[cod]
+*$py.class
+/renders*
+/runs
+.DS_Store
